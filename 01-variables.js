@@ -1,5 +1,5 @@
 // var 
-//se pueden acceder a ellas aunqeu no se hayan declarado, tiene ciertos problemas de definicion
+//se pueden acceder a ellas aunque no se hayan declarado, tiene ciertos problemas de definicion
 
 var helloWorld = "Hello javascript"
 console.log(helloWorld)

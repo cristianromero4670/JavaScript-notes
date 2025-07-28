@@ -28,10 +28,10 @@ while(i < 5) {
 
 i = 6
 
-do{
+do {
     console.log(`Hola ${i}`)
     i++
-}while(i < 5)
+} while (i < 5)
 
 // for of
 

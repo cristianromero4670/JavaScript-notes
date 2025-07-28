@@ -71,9 +71,38 @@ do {
 
 // 8. Usa un bucle para invertir una cadena de texto 
 
+cadena = "ornitorrinco"
+let invertido = []
+let j = 0
+
+for (let i = cadena.length - 1; i >= 0; i--) {
+    invertido[j] = cadena[i]
+    j++
+}
+
+console.log(invertido.join(""))
 
 
 // 9. Usa un bucle para generar los primeros 10 numeros de la secuencia Fibonacci
+let f = [0,1]
+let n = 0
+let total = 0
 
+while(f.length <= 9){
+    f[f.length] = f[f.length - 1] + f[f.length - 2]
+}
+
+console.log(f)
 
 // 10. Dado un array de numeros, usa un bucle para crear un nuevo array que contenga solo los numeros mayores a 10
+
+myArray = [10, 45, 3, 35, 5, 7, 42]
+let vacio = []
+
+for (valor of myArray) {
+    if (valor > 10) {
+        vacio.push(valor)
+    }
+}
+
+console.log(vacio)

@@ -42,7 +42,7 @@ console.log(myArray2)
 myArray = []
 
 //push y pop
-myArray.push("Eduardo") //añade el elemento al final de las array
+myArray.push("Eduardo") //añade el elemento al final de la array
 myArray.push("Romero")
 myArray.push("Eddy")
 myArray.push(22)

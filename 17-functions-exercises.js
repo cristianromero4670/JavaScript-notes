@@ -30,8 +30,10 @@ if(cont == myArray.length - 1){
 console.log(mayor)
 
 // 3. Crea una funcion que reciba un string y devuelva el numero de vocales que tiene
+let cad = "cadena de texto que debe contar el numero de vocales que tiene"
+cont = 0
 
-
+console.log(cont)
 
 // 4. Crea una funcion que reciba un array de strings y devuelva un nuevo array con las strings en mayusculas
 

@@ -84,8 +84,8 @@ console.log(invertido.join(""))
 
 
 // 9. Usa un bucle para generar los primeros 10 numeros de la secuencia Fibonacci
-let f = [0,1]
-let n = 0
+f = [0,1]
+n = 0
 let total = 0
 
 while(f.length <= 9){

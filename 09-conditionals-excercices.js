@@ -30,7 +30,7 @@ let nume = -7
 
 if (nume > 0){
     console.log(`El numero ${nume} es positivo`)
-} else if (num > 0){
+} else if (nume > 0){
     console.log(`El numero ${nume} es negativo`)
 } else {
     console.log(`El numero es igual a ${nume} `)

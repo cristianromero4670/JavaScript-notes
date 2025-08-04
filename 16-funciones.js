@@ -68,7 +68,7 @@ defaultSum(b = 5)
 
 // Retorno de valores
 
-// Retorna ek valor para poder trabajar con el
+// Retorna el valor para poder trabajar con el
 
 function mult(a, b){
     return a * b //lo que se ponga despues del return es lo que va a regresar al usuario
@@ -101,7 +101,7 @@ function applyFunc(func, param) {
 }
 
 applyFunc(myFunc4, "funcion de orden superior") 
-// Como parame  tros se da el nombre de la funcion y el parametro de la funcion anidada.
+// Como parametros se da el nombre de la funcion y el parametro de la funcion anidada.
 
 // forEach
 

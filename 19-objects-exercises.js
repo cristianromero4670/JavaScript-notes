@@ -44,8 +44,23 @@ car.motorDetails = {
 
 // 8. Accede y muestra el valor de las propiedades anidadas
 
-
+console.log(car.motorDetails.type)
+console.log(car.motorDetails.horsepower)
 
 // 9. Comprueba si los dos objetos creados son iguales 
 
+let car2 = {
+    brand: 'porche',
+    model: 'GT2-911',
+    year: 2021,
+    motor: {
+        type: 'v12',
+        horsepower: 700
+    }
+}
+
+console.log(JSON.stringify(car) === JSON.stringify(car2))
+
 // 10. Comprueba si dos propiedades diferentes son iguales
+
+console.log(car.motorDetails.type == car2.motor.type)

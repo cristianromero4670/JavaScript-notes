@@ -40,10 +40,10 @@ console.log(person3.alias)
 // Funciones en clases
 
 class PersonWithMethod {
-    constructor(name, age, alas) {
+    constructor(name, age, alias) {
         this.name = name
         this.age = age
-        this.alias = alas
+        this.alias = alias
     }
 
     walk() {
@@ -75,7 +75,7 @@ let person5 = new PrivatePerson('Eduardo', 22, 'Eddy', 'banco123')
 
 /* console.log(person5.bank) */ // Esto dará un error porque #bank es privado
 
-// person5.bamk = "new banco456" // bank no es #bank
+// person5.bank = "new banco456" // bank no es #bank
 
 // getters y setters
 
@@ -94,11 +94,11 @@ class GetSetPerson {
     }
 
     get name() {
-        return this.#name
+        return this.#name //Permite leer la propiedad
     }
 
     set bank(newBank) {
-        this.#bank = newBank
+        this.#bank = newBank  // permite modificar la propiedad
     }
 }
 
@@ -167,3 +167,4 @@ let myClass = new MathOperations()
 //console.log(myClass.sum(5, 10)) // Esto dará un error porque sum es un método estático
 
 console.log(MathOperations.sum(5, 10))
+
